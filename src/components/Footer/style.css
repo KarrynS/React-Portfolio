@@ -1,0 +1,13 @@
+/*footer styling*/
+.footer-margin {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    background-color: #1b242f;
+    color: white;
+    border-top: 5px solid #04c2c9;
+  }
+
+.githubLink {
+    color: #e31b6d;
+}

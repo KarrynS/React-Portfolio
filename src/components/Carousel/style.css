@@ -1,0 +1,18 @@
+.carousel-caption h5 {
+    font-weight: bolder;
+    color: #04c2c9;
+    font-size: 1.2em; /* small size since this is the default in Bootstrap */
+    text-align: center;
+    vertical-align: center;
+}
+
+.carousel-caption p {
+    font-size: 1em; /* small size since this is the default in Bootstrap */
+    text-align:center;
+    vertical-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

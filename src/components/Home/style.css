@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    display: grid;
+}
+
+/*styling for body*/
+body {
+    position: relative;
+    font-family: 'Courier New Sans Serif', Courier, monospace;
+    font-size: 18px;
+    line-height: 27px;
+    height: auto;
+       
+}
