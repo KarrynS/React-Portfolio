@@ -13,7 +13,7 @@ const Contact = () => {
             <section>
                 <div class="contact-grid">
                     <div class="row">
-                    <a id="gitHubBtn" class="col-md-4" href="https://github.com/KarrynS" target="_blank" rel="noreferrer">
+                    <a data-aos="flip-left"id="gitHubBtn" class="col-md-4" href="https://github.com/KarrynS" target="_blank" rel="noreferrer">
                     <i class="fab fa-github fa-5x btn" ></i>
                     <br/>
                     <p class="badge rounded-pill bg-light text-dark">Github</p>

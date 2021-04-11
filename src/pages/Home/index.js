@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css";
-import Carousel from "../Carousel/index";
-import MainContent from "../MainContent/index";
+import Carousel from "../../components/Carousel/index";
+import MainContent from "../../components/MainContent/index";
 
 const Home = () => {
     return (

@@ -98,6 +98,7 @@ h5 {
     justify-content: center;
     text-align: center;
     width: 80%;
+    /*display: -webkit-inline-box;*/
 }
 
 .email {
