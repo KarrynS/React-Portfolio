@@ -18,15 +18,6 @@ h1 {
     
 }
 
-.animateOne {
-    position: absolute;
-    left: 0;
-}
-
-.animateTwo {
-    right: 0;
-    position: absolute;
-}
 /*Styling Links section*/
 .contact-grid {
     margin: 0 auto;

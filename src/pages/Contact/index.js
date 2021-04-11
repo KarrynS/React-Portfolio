@@ -34,7 +34,7 @@ const Contact = () => {
             <div class="container-fluid">
                 <div>
                     <h1>Contact Me</h1>
-                    <hr class="lineTitle animateTwo"/>
+                    <hr class="lineTitle"/>
                     <h5>Have a question or interested in collaborating together? </h5>
                     <div class="container">
                     <div class="email">

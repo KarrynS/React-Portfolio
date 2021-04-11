@@ -37,11 +37,6 @@ h1 {
     background: #1b242f;
 }
 
-.animateOne {
-    position: absolute;
-    left: 0;
-}
-
 /*Styling Project Cards*/
 .card-text {
     color: #acacac;

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState} from 'react'
 import Project1Img from "../../img/SS-Project_1.png";
 import WellMeImg from "../../img/wellme.png";
 import PasswordGenImg from "../../img/SS-PasswordGenerator.png";
@@ -9,67 +9,104 @@ import EmployeeTrackerImg from "../../img/Employee_Tracker_ScreenShot.png";
 import SavedNotesImg from "../../img/SavedNotes.png";
 import WeatherDashboardImg from "../../img/SS-WeatherDashboard.png";
 import ProjectCards from "../../components/Cards/ProjectCard";
-import projects from "../../utils/projects.json";
+import LinkCards from "../../components/Cards/LinkCards";
+//import projects from "../../utils/projects.json";
+
 const projectArray = [
     {
-        // img: Project1Img,
+        img: Project1Img,
         title: "Group Project | Appetite",
-        desc: "APPetite is a web browser based app that connects tourists to local cuisines in the area helping to generate sales for local businesses."
+        desc: "APPetite is a web browser based app that connects tourists to local cuisines in the area helping to generate sales for local businesses.",
+        languages: "HTML, CSS, javaSript, JQuery, API, Local Storage, AJAX",
+        demo: "https://karryns.github.io/Project_1/",
+        code: "https://github.com/KarrynS/Project_1.git"
+
     },
     {
-        // img: WellMeImg,
+        img: WellMeImg,
         title: "Group Project | Well❤️Me",
-        desc: "A full stack application that allows users to track their wellness journey and reach fitness goals faster"
+        desc: "A full stack application that allows users to track their wellness journey and reach fitness goals faster",
+        languages: "Node, Express, Handlebars.js, Sequelize ORM, MySQL, Heroku, API, HTML, CSS, JavaScript, JQuery",
+        demo: "https://wellme.herokuapp.com/",
+        code: "https://github.com/KarrynS/WellMe.git"
+
     },
     {
-        // img: PasswordGenImg,
+        img: PasswordGenImg,
         title: "Random Password Generator",
-        desc: "A browser application which generates a randomised password based on user-selected criteria. Parameters that can be included for the password are min-max length, lowercase letters, uppercase letters, numbers and special characters."
+        desc: "A browser application which generates a randomised password based on user-selected criteria. Parameters that can be included for the password are min-max length, lowercase letters, uppercase letters, numbers and special characters.", 
+        languages: "HTML, CSS, javaSript",
+        demo: "https://karryns.github.io/Password-Generator/",
+        code: "https://github.com/KarrynS/Password-Generator.git"
+
     },
     {
-        // img: CodeQuizImg,
+        img: CodeQuizImg,
         title: "Code Quiz",
-        desc: "A timed MCQ quiz to test your knowledge of Javascript."
+        desc: "A timed MCQ quiz to test your knowledge of Javascript.",
+        languages: "HTML, CSS, javaSript, jQuery, localStorage, web API's",
+        demo: "https://karryns.github.io/Code-Quiz/",
+        code: "https://github.com/KarrynS/Code-Quiz.git"
+
     },
     {
-        // img: DayPlannerImg,
+        img: DayPlannerImg,
         title: "Work Day Scheduler",
-        desc: "A simple browser run application that allows user to save events for each hour of the work day. The app is set up to have past, present and future time blocks where events can be stored and cleared from local storage."
+        desc: "A simple browser run application that allows user to save events for each hour of the work day. The app is set up to have past, present and future time blocks where events can be stored and cleared from local storage.",
+        languages: "HTML, CSS, javaSript, jQuery, localStorage, moment.js",
+        demo: "https://karryns.github.io/Work-Day-Scheduler/",
+        code: "https://github.com/KarrynS/Work-Day-Scheduler.git"
+
     },
     {
-        // img: EatDaBurgerImg,
+        img: EatDaBurgerImg,
         title: "Eat-Da-Burger",
-        desc: "A restaraunt app that lets users input the names of burgers they'd like to eat and devour them. This app will store every burger whether eaten or not in a database"
+        desc: "A restaraunt app that lets users input the names of burgers they'd like to eat and devour them. This app will store every burger whether eaten or not in a database", 
+        languages: "Node.js, mySQL, Express, Handlebars, Heroku and ORM",
+        demo: "https://polar-spire-98874.herokuapp.com/",
+        code: "https://github.com/KarrynS/Eat-Da-Burger.git"
+
     },
     {
-        // img: EmployeeTrackerImg,
+        img: EmployeeTrackerImg,
         title: "Employee-Tracker",
-        desc: "A CLI application that allows for easier management of a company's employess. Features include viewing, adding and deleting employees, departments and roles as well as updating employee roles and viewing total department salary budget."
+        desc: "A CLI application that allows for easier management of a company's employess. Features include viewing, adding and deleting employees, departments and roles as well as updating employee roles and viewing total department salary budget.", 
+        languages: "Node.js, mySQL, inquirer",
+        demo: "https://drive.google.com/file/d/1aBkEXWRnTvBFzcb40cxsyagBeSSDWhyw/view",
+        code: "https://github.com/KarrynS/Employee-Tracker.git"
+
 
     }, {
-        // img: SavedNotesImg,
+        img: SavedNotesImg,
         title: "Note Taker",
-        desc: "An application utilising backend Express.js to allow users to write, store and delete notes."
+        desc: "An application utilising backend Express.js to allow users to write, store and delete notes.", 
+        languages: "Express.js, Heroku, Javascript, HTML, CSS",
+        demo: "https://secret-woodland-41524.herokuapp.com/",
+        code: "https://github.com/KarrynS/Note-Taker.git"
+
     },
     {
-        // img: WeatherDashboardImg,
+        img: WeatherDashboardImg,
         title: "Weather Dashboard",
-        desc: "A weather dashboard built for travellers allowing them to see the weather outlook for cities around the world to help them plan their trip."
+        desc: "A weather dashboard built for travellers allowing them to see the weather outlook for cities around the world to help them plan their trip.",
+        languages: "HTML, CSS, javaSript, JQuery, Third Party API's, Local Storage",
+        demo: "https://karryns.github.io/Weather-Dashboard/",
+        code: "https://github.com/KarrynS/Weather-Dashboard.git"
+
     },
 ]
 const Project = () => {
 
-    const [projectState, setProjectState] = useState(projects);
-    useEffect(() => {
+    // const [projectState, setProjectState] = useState(projectArray);
+    // useEffect(() => {
 
-        console.log("Array", projectState)
-    }, [])
+    //     console.log("Array", projectState)
+    // }, [])
     const [state, setState] = useState({  position: { index: 0, showBox: false } })
     const handleBoxToggle = (index) => {
         console.log(index);
         setState({
             ...state,
-             
             position: {
             index: index,
             showBox: !state.position.showBox
@@ -79,23 +116,28 @@ const Project = () => {
 return (
     <>
         <div>
-            <h1>Projects....</h1>
-            <hr className="lineTitle animateOne" />
+            <h1>Projects</h1>
+            <hr className="lineTitle" />
         </div>
         <div class="cardsContainer">
             <div class="row row-cols-1 row-cols-md-2 g-4">
 
-                {projectState.map((project, index) => {
-                    return state.position.showBox && state.position.index === index ? <div name={index} onMouseOver={() => handleBoxToggle(index)}>
+                {projectArray.map((project, index) => {
+                    return state.position.showBox && state.position.index === index ? <div name={index} onMouseEnter={() => handleBoxToggle(index)}>
 
-                        Project Card
+                        <LinkCards 
+                        title={project.title}
+                        key={index}
+                        language={project.language}
+                        demo={project.demo}
+                        code={project.code}
+                        />
                     </div> : <ProjectCards
                         name={index}
-                        key={project.title}
+                        key={index}
                         img={project.img}
                         title={project.title}
                         desc={project.desc}
-                        state={state}
                         index={index}
                         handleBoxToggle={handleBoxToggle}
                     />

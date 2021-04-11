@@ -14,6 +14,8 @@ h1 {
 
 #portPhoto {
     border-radius:50%;
+    max-width: 100%;
+    height: 250px;
 }
 
 .card-title {

@@ -11,7 +11,7 @@ const MainContent = () => {
                 <div className="card mb-3 imgDiv">
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src={ProfilePhoto} alt="Portfolio" className='img-fluid' id="portPhoto"/>
+                            <img src={ProfilePhoto} alt="Profile" className='img-fluid' id="portPhoto"/>
                         </div>
                         <div className="col-md-8 ">
                             <div className="bioDiv">

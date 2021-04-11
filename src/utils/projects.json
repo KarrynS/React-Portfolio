@@ -1,3 +1,12 @@
+import Project1Img from "../../img/SS-Project_1.png";
+import WellMeImg from "../../img/wellme.png";
+import PasswordGenImg from "../../img/SS-PasswordGenerator.png";
+import DayPlannerImg from "../../img/SS-DayPlanner.png";
+import CodeQuizImg from "../../img/SS-CodeQuiz.png";
+import EatDaBurgerImg from "../../img/SS-Eat-Da-Burger.png";
+import EmployeeTrackerImg from "../../img/Employee_Tracker_ScreenShot.png";
+import SavedNotesImg from "../../img/SavedNotes.png";
+import WeatherDashboardImg from "../../img/SS-WeatherDashboard.png";
 
 [
     {
