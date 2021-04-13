@@ -103,6 +103,7 @@ const Project = () => {
     //     console.log("Array", projectState)
     // }, [])
     const [state, setState] = useState({  position: { index: 0, showBox: false } })
+    
     const handleBoxToggle = (index) => {
         console.log(index);
         setState({
