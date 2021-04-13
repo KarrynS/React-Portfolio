@@ -4,18 +4,30 @@
     font-size: 1.5em; /* small size since this is the default in Bootstrap */
     text-align: center;
     vertical-align: top;
-    
+    background-color: white;
+    opacity: 80%;
+    border-radius: 5px;
 }
 
 .carousel-caption p {
     font-size: 1em; /* small size since this is the default in Bootstrap */
     text-align:center;
     vertical-align: top;
+    color: white;
+    background-color: #1b242f;
+    opacity: 50%;
+    border-radius: 5px;
 }
+
+
 
 .img-fluid {
     max-width: 100%;
     height: 100vh;
+}
+
+.img-fluid p::before {
+    filter: blur(12px);
 }
 
 .carousel-caption {
@@ -26,6 +38,7 @@
     position: absolute;
     margin-inline: auto;
     vertical-align: center;
+
 }
 
 .carouselDiv {

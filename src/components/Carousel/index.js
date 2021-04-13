@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css";
 //importing images
-import ImgOne from "../../img/software.jpg";
+import ImgOne from "../../img/macbookswirl.jpg";
 import ImgTwo from "../../img/basics.jpg";
 import ImgThree from "../../img/teamwork2.jpg";
 import ImgFour from "../../img/drive.jpg";
