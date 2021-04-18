@@ -37,7 +37,7 @@ const projectArray = [
         title: "React Google Book Search",
         desc: "A MERN stack application that allows users to search and view books books through Google Books API. Books can then be 'saved' to a Mongo database.",
         languages: "React, Node, Express, MongoDB",
-        demo: "",
+        demo: "https://safe-depths-43279.herokuapp.com/",
         code: "https://github.com/KarrynS/Google-Books-Search.git"
     },
     {
