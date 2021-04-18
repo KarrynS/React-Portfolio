@@ -10,9 +10,19 @@ import SavedNotesImg from "../../img/SavedNotes.png";
 import WeatherDashboardImg from "../../img/SS-WeatherDashboard.png";
 import ProjectCards from "../../components/Cards/ProjectCard";
 import LinkCards from "../../components/Cards/LinkCards";
+import GoogleBookSearch from "../../img/GoogleBookSearch.png";
 //import projects from "../../utils/projects.json";
 
 const projectArray = [
+    {
+        img: WellMeImg,
+        title: "Group Project | Well❤️Me",
+        desc: "A full stack application that allows users to track their wellness journey and reach fitness goals faster.",
+        languages: "Node, Express, Handlebars.js, Sequelize ORM, MySQL, Heroku, API, HTML, CSS, JavaScript, JQuery",
+        demo: "https://wellme.herokuapp.com/",
+        code: "https://github.com/KarrynS/WellMe.git"
+
+    },
     {
         img: Project1Img,
         title: "Group Project | Appetite",
@@ -23,13 +33,12 @@ const projectArray = [
 
     },
     {
-        img: WellMeImg,
-        title: "Group Project | Well❤️Me",
-        desc: "A full stack application that allows users to track their wellness journey and reach fitness goals faster",
-        languages: "Node, Express, Handlebars.js, Sequelize ORM, MySQL, Heroku, API, HTML, CSS, JavaScript, JQuery",
-        demo: "https://wellme.herokuapp.com/",
-        code: "https://github.com/KarrynS/WellMe.git"
-
+        img: GoogleBookSearch,
+        title: "React Google Book Search",
+        desc: "A MERN stack application that allows users to search and view books books through Google Books API. Books can then be 'saved' to a Mongo database.",
+        languages: "React, Node, Express, MongoDB",
+        demo: "",
+        code: "https://github.com/KarrynS/Google-Books-Search.git"
     },
     {
         img: PasswordGenImg,
