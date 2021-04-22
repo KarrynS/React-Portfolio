@@ -13,7 +13,7 @@ function App() {
       <>
         <Navbar />
         <Switch >
-        <Route exact path={["/", ]} component={Home} />
+        <Route exact path={["/", "/React-Portfolio"]} component={Home} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} /> 
         </Switch>
