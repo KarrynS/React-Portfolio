@@ -17,8 +17,8 @@ import Diagnosis from "../../img/Diagnosis.png";
 const projectArray = [
     {
         img: Diagnosis,
-        title: "Solo Project - MERN | Mend",
-        desc: "A full stack application that allows patients and optometrists to communicate more efficienctly and accurately. Live chats function enables optometrists and patients makes optometry easily accessible.",
+        title: "Solo Project | Mend",
+        desc: "A MERN stack application that allows patients and optometrists to communicate symptoms and advice more efficienctly and accurately. Live chat function makes optometry easily accessible.",
         languages: "MERN stack, Bootstrap, Heroku, Passport, react-moment, APIs, socket.io, bycrypt, Javascript, HTML, CSS",
         demo: "https://mend2021.herokuapp.com/",
         code: "https://github.com/KarrynS/Mend.git"
@@ -147,7 +147,7 @@ return (
                         <LinkCards 
                         title={project.title}
                         key={index}
-                        language={project.language}
+                        languages={project.languages}
                         demo={project.demo}
                         code={project.code}
                         />

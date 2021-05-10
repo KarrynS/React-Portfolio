@@ -8,7 +8,7 @@ const LinkCards = (props) => {
                     <div class="card-body">
                         <h5 class='card-title'>{props.title}</h5>
                         <hr class='cardhr'/>
-                        <p class='card-text' id='cardText'>"HTML, CSS, javaSript, JQuery, API, Local Storage, AJAX"</p>
+                        <p class='card-text' id='cardText'>{props.languages}</p>
                         <a class='btn' target='_blank' href={props.demo} rel="noreferrer">Live demo</a>
                         <a class='btn' target='_blank' href={props.code} rel="noreferrer">View Source Code</a>
                     </div>
