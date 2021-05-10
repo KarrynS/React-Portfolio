@@ -11,9 +11,18 @@ import WeatherDashboardImg from "../../img/SS-WeatherDashboard.png";
 import ProjectCards from "../../components/Cards/ProjectCard";
 import LinkCards from "../../components/Cards/LinkCards";
 import GoogleBookSearch from "../../img/GoogleBookSearch.png";
+import Diagnosis from "../../img/Diagnosis.png";
 //import projects from "../../utils/projects.json";
 
 const projectArray = [
+    {
+        img: Diagnosis,
+        title: "Solo Project - MERN | Mend",
+        desc: "A full stack application that allows patients and optometrists to communicate more efficienctly and accurately. Live chats function enables optometrists and patients makes optometry easily accessible.",
+        languages: "MERN stack, Bootstrap, Heroku, Passport, react-moment, APIs, socket.io, bycrypt, Javascript, HTML, CSS",
+        demo: "https://mend2021.herokuapp.com/",
+        code: "https://github.com/KarrynS/Mend.git"
+    },
     {
         img: WellMeImg,
         title: "Group Project | Well❤️Me",
