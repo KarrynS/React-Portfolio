@@ -9,7 +9,7 @@ function Navbar() {
         <>
             <nav className="navbar navbar-expand-sm navbar-dark">
                 <i className="fa fa-superpowers"></i>
-                <a className="navbar-brand" href="/React-Portfolio">Karryn Saw</a>
+                <a className="navbar-brand" href="/">Karryn Saw</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
